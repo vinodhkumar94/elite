@@ -31,7 +31,7 @@ public int delete(int id){
 }  
 public Emp getEmpById(int id){  
     String sql="select * from Employee_spring where id=?";  
-    return template.queryForObject(sql, new Object[]{id},new BeanPropertyRowMapper<Emp>(Emp.class));  
+    return template.queryForObject(sql, new Object[]{id},new BeanPropertyRowMapper<Emp>(Emp.class)); 
 }  
 public List<Emp> getEmployees(){  
     return template.query("select * from Employee_spring",new RowMapper<Emp>(){  

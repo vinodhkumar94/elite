@@ -1,5 +1,5 @@
 
-		<marquee scrollamount = "10" bgcolor = "#99ff99"  behavior="alternate" direction = "right">  Click Below  </marquee>
+<marquee scrollamount = "10" bgcolor = "#99ff99"  behavior="alternate" direction = "right">  Click Below  </marquee>
 
 <a href="empform">Add Employee</a>
 <br>
