@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_231" class="java.beans.XMLDecoder">
+ <object class="com.elite.serializationclass.College">
+  <void property="students">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="com.elite.serializationclass.Student">
+      <void property="mobnum">
+       <long>2356</long>
+      </void>
+      <void property="name">
+       <string>A</string>
+      </void>
+      <void property="rollno">
+       <int>100</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.elite.serializationclass.Student">
+      <void property="mobnum">
+       <long>1254</long>
+      </void>
+      <void property="name">
+       <string>C</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.elite.serializationclass.Student">
+      <void property="mobnum">
+       <long>2589</long>
+      </void>
+      <void property="name">
+       <string>D</string>
+      </void>
+      <void property="rollno">
+       <int>103</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.elite.serializationclass.Student">
+      <void property="mobnum">
+       <long>6985</long>
+      </void>
+      <void property="name">
+       <string>B</string>
+      </void>
+      <void property="rollno">
+       <int>102</int>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
