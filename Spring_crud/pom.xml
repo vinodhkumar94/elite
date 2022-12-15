@@ -8,7 +8,7 @@
   <name>SpringMVCPagination Maven Webapp</name>
   <url>http://maven.apache.org</url>
     <properties>
-        <spring.version>5.1.1.RELEASE</spring.version>
+        <spring.version>5.2.20.RELEASE</spring.version>
         <hibernate.version>5.4.1.Final</hibernate.version>
         <mysql.version>8.0.18</mysql.version>
         <junit-version>3.8.1</junit-version>
@@ -61,7 +61,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
-    <version>5.2.3.RELEASE</version>
+    <version>5.2.20.RELEASE</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
